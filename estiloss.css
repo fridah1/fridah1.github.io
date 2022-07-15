@@ -1,0 +1,163 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color:  #2D4459;
+    
+}
+
+.fotos{
+    display: flex;
+    justify-content: center;
+}
+
+.fotosizquierdo{
+    display: flex;
+    flex-direction: column;
+}
+.foto1{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-left: 70px;
+}
+.foto2{
+    margin-top: 25px;
+    margin-left: 70px;
+}
+
+.fotos{
+    display: flex;
+    gap: 30px 60px;
+    
+}
+
+.fotoderecha{
+    display: flex;
+    flex-direction: column;
+}
+
+.foto3{
+    margin-top: 175px;
+    margin-right: 80px;
+    margin-bottom: 100px;
+    margin-left: 0px;
+}
+    
+.foto4{
+    margin-top: 1px;
+    margin-right: 2px;
+    margin-left: 0px;
+}
+
+.info__titulo{ 
+    margin-top: 50px;
+    
+    margin-left: 120px;
+
+    position: center ;
+    width: 585px;
+    height: 99px;
+    border-radius: 15px;
+    background-color: #A67A76;
+}
+.info__titulo--texto{
+    
+    margin-left: 110px;
+
+    
+
+    position: center ;
+    font-family: 'Kiwi Maru', serif;
+    font-family: 'Quicksand', sans-serif; 
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 75px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.47px;
+    padding-top: 10px;
+}
+
+.info__parrafo{
+    
+    background-color: #D9D3B8;
+    border-radius: 15px;
+    font-family: 'Kiwi Maru', serif;
+    font-family: 'Quicksand', sans-serif;
+    width: 550px;
+    height: 324px;
+    text-align: center;
+    font-size: 15px;
+    padding: 15px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 120px;   
+}
+
+.h1{
+    height: 400px;
+    width: 582px;
+    left: 710px;
+    top: 215px;
+
+    position: center ;
+    font-family: 'Kiwi Maru';  
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.47px;
+
+
+
+
+}
+button{
+    background-color: transparent;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+.botones{
+    display: flex;
+    margin-left: 120px; 
+    display: flex;
+    justify-content: space-around;
+}
+ 
+.botoninstagram--boton{
+    margin-right: 50px;
+}
+
+.botoninstagram--boton>a{
+    text-decoration: none;
+    font-size: larger;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.botoninstagram--boton a:hover{
+    transform: scale(1.2);
+
+}
+
+button:hover{
+    
+}
+
+
+button>img{
+    height: 95px;
+}
+
+
+
+
+
+    
